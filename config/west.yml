@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: niceview-mod
+    - name: nice-view-mod
       remote: rwyattwalker                     
       revision: main                      
   self:
