@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: urchin-peripheral-animation
+    - name: niceview-peripheral-animation
       remote: rwyattwalker                     
       revision: main                      
   self:
