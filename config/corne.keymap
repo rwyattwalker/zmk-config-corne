@@ -81,7 +81,7 @@
             bindings = <
                 &none      &kp EXCL            &kp AT        &kp HASH       &kp DLLR       &kp PRCNT           &kp CARET      &kp AMPS          &kp ASTERISK       &kp MINUS         &kp EQUAL           &none
                 &none      &kp LBRC            &kp LPAR      &kp RPAR       &kp RBRC       &none               &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp SEMI            &none
-                &none      &mt LSHFT LBKT      &none         &none          &kp RBKT       &none               &none          &none             &none              &kp BLSH          &mt RSHFT APOS      &none
+                &none      &mt LSHFT LBKT      &none         &none          &kp RBKT       &none               &none          &none             &none              &kp BSLH          &mt RSHFT APOS      &none
                                                              &kp LCTRL      &kp LALT       &mt LGUI SPACE      &none          &none             &none      
             >;
         };
@@ -98,7 +98,7 @@
         function_layer {
             bindings =<
                 &none      &kp ESC         &kp DEL           &kp CAPS          &none             &none               &none      &none       &none         &kp PG_DN     &kp PG_UP    &none
-                &none      &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp 6      &kp F7      &kp F8        &kp F9        &kp F10      &none
+                &none      &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp F6     &kp F7      &kp F8        &kp F9        &kp F10      &none
                 &none      &kp LSHFT       &kp C_VOL_DN      &kp C_VOL_UP      &kp C_MUTE        &none               &none      &none       &none         &kp F11       &kp F12      &none
                                                              &kp LCTRL         &kp LALT          &mt LGUI SPACE      &none      &none       &none     
             >;
