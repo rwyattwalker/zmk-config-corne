@@ -79,7 +79,7 @@
         };
         code_layer {
             bindings = <
-                &none      &kp EXCL            &kp AT        &kp HASH       &kp DLLR       &PRCNT              &kp CARET      &kp AMPS          &kp ASTERISK       &kp MINUS         &kp EQUAL           &none
+                &none      &kp EXCL            &kp AT        &kp HASH       &kp DLLR       &kp PRCNT           &kp CARET      &kp AMPS          &kp ASTERISK       &kp MINUS         &kp EQUAL           &none
                 &none      &kp LBRC            &kp LPAR      &kp RPAR       &kp RBRC       &none               &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp SEMI            &none
                 &none      &mt LSHFT LBKT      &none         &none          &kp RBKT       &none               &none          &none             &none              &kp BLSH          &mt RSHFT APOS      &none
                                                              &kp LCTRL      &kp LALT       &mt LGUI SPACE      &none          &none             &none      
