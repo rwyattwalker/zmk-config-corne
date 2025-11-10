@@ -8,15 +8,13 @@
 #define NUM 2
 #define FUNC 3
 
-
-
-
-/ {
-    // Behavior Overrides
+  // Behavior Overrides
     &lt {
         tapping-term-ms = <200>;
         flavor = "hold-preferred";
     };
+/ {
+
 
     // Combo keys are a way to combine multiple keypresses to output a different key. For example, you can hit the Q and W keys on your keyboard to output escape.
     //combos {
