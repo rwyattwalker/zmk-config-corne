@@ -71,35 +71,35 @@
 
         default_layer {
             bindings = <
-                &none      &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Y                 &kp U                  &kp I              &kp O        &kp P               &none
-                &none      &kp A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp BSPC            &none
-                &none      &mt LSHFT Z      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &mt RSHFT FSLH      &none
+                &kp ESC    &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Y                 &kp U                  &kp I              &kp O        &kp P               &kp BSP 
+                &kp TAB    &kp A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp SEMI            &kp APOS
+                &kp LSHFT  &kp Z            &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &kp FSLH            &kp RSHFT
                                                        &kp LCTRL      &kp LALT      &mt LGUI SPACE      &lt CODE TAB          &lt NUM ENTER          &lt FUNC GRAVE    
             >;
         };
         code_layer {
             bindings = <
-                &none      &kp EXCL            &kp AT        &kp HASH       &kp DLLR       &kp PRCNT           &kp ESC        &kp AMPS          &kp ASTERISK       &kp MINUS         &kp EQUAL           &none
-                &none      &kp LBRC            &kp LPAR      &kp RPAR       &kp RBRC       &none               &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp SEMI            &none
-                &none      &mt LSHFT LBKT      &none         &none          &kp RBKT       &none               &kp CARET      &none             &none              &kp BSLH          &mt RSHFT APOS      &none
+                &kp ESC    &kp EXCL         &kp AT        &kp HASH       &kp DLLR       &kp PRCNT           &kp ESC        &kp AMPS          &kp ASTERISK       &kp MINUS         &kp EQUAL           &kp BSP
+                &kp TAB    &kp LBRC         &kp LPAR      &kp RPAR       &kp RBRC       &none               &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp SEMI            &kp APOS
+                &kp LSHFT  &kp LBKT         &none         &none          &kp RBKT       &none               &kp CARET      &none             &none              &kp BSLH          &none               &kp RSHFT
                                                              &kp LCTRL      &kp LALT       &mt LGUI SPACE      &none          &none             &none      
             >;
         };
 
         number_layer {
             bindings = < 
-                &none      &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3        &none          &none         &none              &none         &none         &none 
+                &none    &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3        &none          &none         &none              &none         &none         &none 
                 &none      &kp N1         &kp N2        &kp N3         &kp N4        &kp N5              &kp N6         &kp N7        &kp N8             &kp N9        &kp N0        &none
-                &none      &kp LSHFT      &none         &none          &none         &none               &none          &none         &none              &none         &kp RSHFT     &none
+                &kp LSHFT   &none          &none         &none          &none         &none               &none          &none         &none              &none         &none     &kp RSHFT
                                                         &kp LCTRL      &kp LALT      &mt LGUI SPACE      &none          &none         &none      
             >;
         };
         
         function_layer {
             bindings =<
-                &none      &none           &kp DEL           &kp CAPS          &none             &none               &none      &none       &none         &kp PG_DN     &kp PG_UP    &none
+                &kp ESC    &none           &kp DEL           &kp CAPS          &none             &none               &none      &none       &none         &kp PG_DN     &kp PG_UP    &none
                 &none      &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp F6     &kp F7      &kp F8        &kp F9        &kp F10      &none
-                &none      &kp LSHFT       &kp C_VOL_DN      &kp C_VOL_UP      &kp C_MUTE        &none               &none      &none       &none         &kp F11       &kp F12      &none
+                &kp LSHFT  &none       &kp C_VOL_DN      &kp C_VOL_UP      &kp C_MUTE        &none               &none      &none       &none         &kp F11       &kp F12      &kp RSHFT
                                                              &kp LCTRL         &kp LALT          &mt LGUI SPACE      &none      &none       &none     
             >;
         };
