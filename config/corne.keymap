@@ -70,9 +70,9 @@
 
         default_layer {
             bindings = <
-                &win_emoji        &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Y                 &kp U                  &kp I              &kp O        &kp P               &kp BSPC 
+                &kp DEL         &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Y                 &kp U                  &kp I              &kp O        &kp P               &kp BSPC 
                 &kp CAPS        &kp A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp SEMI            &kp APOS
-                &kp DEL      &mt LSHFT Z      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &mt RSHFT FSLH      &win_emoji
+                &win_emoji      &mt LSHFT Z      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &mt RSHFT FSLH      &win_emoji
                                                             &kp LCTRL      &kp LALT      &mt LGUI SPACE      &lt CODE TAB          &lt NUM ENTER          &lt FUNC GRAVE    
             >;
         };
