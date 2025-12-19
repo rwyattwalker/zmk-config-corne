@@ -4,17 +4,13 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: rwyattwalker
       url-base: https://github.com/rwyattwalker
-    - name: dsifry #bongo cat
-      url-base: https://github.com/dsifry #bongo cat
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: e34793e8c7193bc868b95ec38d78f67956f759cb
       import: app/west.yml
     - name: nice-view-mod
-      remote: dsifry                     
-      revision: 5f328cce749b2760cb61dcac30db29432685af69                    
-      #remote: rwyattwalker                     
-      #revision: main                      
+      remote: rwyattwalker                     
+      revision: main                      
   self:
     path: config
